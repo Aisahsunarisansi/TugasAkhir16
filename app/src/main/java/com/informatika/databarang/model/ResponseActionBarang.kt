@@ -1,0 +1,16 @@
+package com.informatika.databarang.model
+
+import com.google.gson.annotations.SerializedName
+
+class ResponseActionBarang(
+    @field:SerializedName("pesan")
+    val pesan: Any? = null,
+
+    @field: SerializedName("pesan")
+    val data: List<Boolean?>? = null,
+
+    @field:SerializedName("status")
+    val status: String? = null
+
+)
+
